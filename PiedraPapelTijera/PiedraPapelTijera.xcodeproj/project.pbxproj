@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		049F849119E992AE0067B6CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049F849019E992AE0067B6CF /* AppDelegate.swift */; };
+		049F849319E992AE0067B6CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049F849219E992AE0067B6CF /* ViewController.swift */; };
+		049F849619E992AE0067B6CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049F849419E992AE0067B6CF /* Main.storyboard */; };
+		049F849819E992AE0067B6CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049F849719E992AE0067B6CF /* Images.xcassets */; };
+		049F849B19E992AE0067B6CF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 049F849919E992AE0067B6CF /* LaunchScreen.xib */; };
+		049F84A719E992AE0067B6CF /* PiedraPapelTijeraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049F84A619E992AE0067B6CF /* PiedraPapelTijeraTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		049F84A119E992AE0067B6CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 049F848319E992AE0067B6CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 049F848A19E992AE0067B6CF;
+			remoteInfo = PiedraPapelTijera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		049F848B19E992AE0067B6CF /* PiedraPapelTijera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PiedraPapelTijera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		049F848F19E992AE0067B6CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		049F849019E992AE0067B6CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		049F849219E992AE0067B6CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		049F849519E992AE0067B6CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		049F849719E992AE0067B6CF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		049F849A19E992AE0067B6CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		049F84A019E992AE0067B6CF /* PiedraPapelTijeraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiedraPapelTijeraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		049F84A519E992AE0067B6CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		049F84A619E992AE0067B6CF /* PiedraPapelTijeraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiedraPapelTijeraTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		049F848819E992AE0067B6CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049F849D19E992AE0067B6CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		049F848219E992AE0067B6CF = {
+			isa = PBXGroup;
+			children = (
+				049F848D19E992AE0067B6CF /* PiedraPapelTijera */,
+				049F84A319E992AE0067B6CF /* PiedraPapelTijeraTests */,
+				049F848C19E992AE0067B6CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		049F848C19E992AE0067B6CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				049F848B19E992AE0067B6CF /* PiedraPapelTijera.app */,
+				049F84A019E992AE0067B6CF /* PiedraPapelTijeraTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		049F848D19E992AE0067B6CF /* PiedraPapelTijera */ = {
+			isa = PBXGroup;
+			children = (
+				049F849019E992AE0067B6CF /* AppDelegate.swift */,
+				049F849219E992AE0067B6CF /* ViewController.swift */,
+				049F849419E992AE0067B6CF /* Main.storyboard */,
+				049F849719E992AE0067B6CF /* Images.xcassets */,
+				049F849919E992AE0067B6CF /* LaunchScreen.xib */,
+				049F848E19E992AE0067B6CF /* Supporting Files */,
+			);
+			path = PiedraPapelTijera;
+			sourceTree = "<group>";
+		};
+		049F848E19E992AE0067B6CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				049F848F19E992AE0067B6CF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		049F84A319E992AE0067B6CF /* PiedraPapelTijeraTests */ = {
+			isa = PBXGroup;
+			children = (
+				049F84A619E992AE0067B6CF /* PiedraPapelTijeraTests.swift */,
+				049F84A419E992AE0067B6CF /* Supporting Files */,
+			);
+			path = PiedraPapelTijeraTests;
+			sourceTree = "<group>";
+		};
+		049F84A419E992AE0067B6CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				049F84A519E992AE0067B6CF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		049F848A19E992AE0067B6CF /* PiedraPapelTijera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 049F84AA19E992AE0067B6CF /* Build configuration list for PBXNativeTarget "PiedraPapelTijera" */;
+			buildPhases = (
+				049F848719E992AE0067B6CF /* Sources */,
+				049F848819E992AE0067B6CF /* Frameworks */,
+				049F848919E992AE0067B6CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PiedraPapelTijera;
+			productName = PiedraPapelTijera;
+			productReference = 049F848B19E992AE0067B6CF /* PiedraPapelTijera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		049F849F19E992AE0067B6CF /* PiedraPapelTijeraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 049F84AD19E992AE0067B6CF /* Build configuration list for PBXNativeTarget "PiedraPapelTijeraTests" */;
+			buildPhases = (
+				049F849C19E992AE0067B6CF /* Sources */,
+				049F849D19E992AE0067B6CF /* Frameworks */,
+				049F849E19E992AE0067B6CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				049F84A219E992AE0067B6CF /* PBXTargetDependency */,
+			);
+			name = PiedraPapelTijeraTests;
+			productName = PiedraPapelTijeraTests;
+			productReference = 049F84A019E992AE0067B6CF /* PiedraPapelTijeraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		049F848319E992AE0067B6CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = xiobit;
+				TargetAttributes = {
+					049F848A19E992AE0067B6CF = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					049F849F19E992AE0067B6CF = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 049F848A19E992AE0067B6CF;
+					};
+				};
+			};
+			buildConfigurationList = 049F848619E992AE0067B6CF /* Build configuration list for PBXProject "PiedraPapelTijera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 049F848219E992AE0067B6CF;
+			productRefGroup = 049F848C19E992AE0067B6CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				049F848A19E992AE0067B6CF /* PiedraPapelTijera */,
+				049F849F19E992AE0067B6CF /* PiedraPapelTijeraTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		049F848919E992AE0067B6CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049F849619E992AE0067B6CF /* Main.storyboard in Resources */,
+				049F849B19E992AE0067B6CF /* LaunchScreen.xib in Resources */,
+				049F849819E992AE0067B6CF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049F849E19E992AE0067B6CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		049F848719E992AE0067B6CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049F849319E992AE0067B6CF /* ViewController.swift in Sources */,
+				049F849119E992AE0067B6CF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049F849C19E992AE0067B6CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049F84A719E992AE0067B6CF /* PiedraPapelTijeraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		049F84A219E992AE0067B6CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 049F848A19E992AE0067B6CF /* PiedraPapelTijera */;
+			targetProxy = 049F84A119E992AE0067B6CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		049F849419E992AE0067B6CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				049F849519E992AE0067B6CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		049F849919E992AE0067B6CF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				049F849A19E992AE0067B6CF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		049F84A819E992AE0067B6CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		049F84A919E992AE0067B6CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		049F84AB19E992AE0067B6CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PiedraPapelTijera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		049F84AC19E992AE0067B6CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PiedraPapelTijera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		049F84AE19E992AE0067B6CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PiedraPapelTijeraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PiedraPapelTijera.app/PiedraPapelTijera";
+			};
+			name = Debug;
+		};
+		049F84AF19E992AE0067B6CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PiedraPapelTijeraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PiedraPapelTijera.app/PiedraPapelTijera";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		049F848619E992AE0067B6CF /* Build configuration list for PBXProject "PiedraPapelTijera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049F84A819E992AE0067B6CF /* Debug */,
+				049F84A919E992AE0067B6CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		049F84AA19E992AE0067B6CF /* Build configuration list for PBXNativeTarget "PiedraPapelTijera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049F84AB19E992AE0067B6CF /* Debug */,
+				049F84AC19E992AE0067B6CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		049F84AD19E992AE0067B6CF /* Build configuration list for PBXNativeTarget "PiedraPapelTijeraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049F84AE19E992AE0067B6CF /* Debug */,
+				049F84AF19E992AE0067B6CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 049F848319E992AE0067B6CF /* Project object */;
+}
