@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04539FFD1A05184B00A753F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04539FFC1A05184B00A753F3 /* AppDelegate.swift */; };
+		04539FFF1A05184B00A753F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04539FFE1A05184B00A753F3 /* ViewController.swift */; };
+		0453A0021A05184B00A753F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0453A0001A05184B00A753F3 /* Main.storyboard */; };
+		0453A0041A05184B00A753F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0453A0031A05184B00A753F3 /* Images.xcassets */; };
+		0453A0071A05184B00A753F3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0453A0051A05184B00A753F3 /* LaunchScreen.xib */; };
+		0453A0131A05184B00A753F3 /* SuperMarioBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0453A0121A05184B00A753F3 /* SuperMarioBookTests.swift */; };
+		0453A01E1A051B5300A753F3 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0453A01D1A051B5300A753F3 /* Character.swift */; };
+		0453A0221A051E1E00A753F3 /* ServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0453A0211A051E1E00A753F3 /* ServiceProvider.swift */; };
+		0453A0241A05340100A753F3 /* CharacterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0453A0231A05340100A753F3 /* CharacterCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0453A00D1A05184B00A753F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04539FEF1A05184B00A753F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04539FF61A05184B00A753F3;
+			remoteInfo = SuperMarioBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04539FF71A05184B00A753F3 /* SuperMarioBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperMarioBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04539FFB1A05184B00A753F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04539FFC1A05184B00A753F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04539FFE1A05184B00A753F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0453A0011A05184B00A753F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0453A0031A05184B00A753F3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0453A0061A05184B00A753F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0453A00C1A05184B00A753F3 /* SuperMarioBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperMarioBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0453A0111A05184B00A753F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0453A0121A05184B00A753F3 /* SuperMarioBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperMarioBookTests.swift; sourceTree = "<group>"; };
+		0453A01C1A051ACA00A753F3 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		0453A01D1A051B5300A753F3 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		0453A0211A051E1E00A753F3 /* ServiceProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceProvider.swift; sourceTree = "<group>"; };
+		0453A0231A05340100A753F3 /* CharacterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04539FF41A05184B00A753F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0453A0091A05184B00A753F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04539FEE1A05184B00A753F3 = {
+			isa = PBXGroup;
+			children = (
+				04539FF91A05184B00A753F3 /* SuperMarioBook */,
+				0453A00F1A05184B00A753F3 /* SuperMarioBookTests */,
+				04539FF81A05184B00A753F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04539FF81A05184B00A753F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04539FF71A05184B00A753F3 /* SuperMarioBook.app */,
+				0453A00C1A05184B00A753F3 /* SuperMarioBookTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04539FF91A05184B00A753F3 /* SuperMarioBook */ = {
+			isa = PBXGroup;
+			children = (
+				04539FFC1A05184B00A753F3 /* AppDelegate.swift */,
+				04539FFE1A05184B00A753F3 /* ViewController.swift */,
+				0453A0001A05184B00A753F3 /* Main.storyboard */,
+				0453A0031A05184B00A753F3 /* Images.xcassets */,
+				0453A0051A05184B00A753F3 /* LaunchScreen.xib */,
+				04539FFA1A05184B00A753F3 /* Supporting Files */,
+				0453A01C1A051ACA00A753F3 /* MyPlayground.playground */,
+				0453A01D1A051B5300A753F3 /* Character.swift */,
+				0453A0211A051E1E00A753F3 /* ServiceProvider.swift */,
+				0453A0231A05340100A753F3 /* CharacterCell.swift */,
+			);
+			path = SuperMarioBook;
+			sourceTree = "<group>";
+		};
+		04539FFA1A05184B00A753F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04539FFB1A05184B00A753F3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0453A00F1A05184B00A753F3 /* SuperMarioBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				0453A0121A05184B00A753F3 /* SuperMarioBookTests.swift */,
+				0453A0101A05184B00A753F3 /* Supporting Files */,
+			);
+			path = SuperMarioBookTests;
+			sourceTree = "<group>";
+		};
+		0453A0101A05184B00A753F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0453A0111A05184B00A753F3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04539FF61A05184B00A753F3 /* SuperMarioBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0453A0161A05184B00A753F3 /* Build configuration list for PBXNativeTarget "SuperMarioBook" */;
+			buildPhases = (
+				04539FF31A05184B00A753F3 /* Sources */,
+				04539FF41A05184B00A753F3 /* Frameworks */,
+				04539FF51A05184B00A753F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperMarioBook;
+			productName = SuperMarioBook;
+			productReference = 04539FF71A05184B00A753F3 /* SuperMarioBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0453A00B1A05184B00A753F3 /* SuperMarioBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0453A0191A05184B00A753F3 /* Build configuration list for PBXNativeTarget "SuperMarioBookTests" */;
+			buildPhases = (
+				0453A0081A05184B00A753F3 /* Sources */,
+				0453A0091A05184B00A753F3 /* Frameworks */,
+				0453A00A1A05184B00A753F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0453A00E1A05184B00A753F3 /* PBXTargetDependency */,
+			);
+			name = SuperMarioBookTests;
+			productName = SuperMarioBookTests;
+			productReference = 0453A00C1A05184B00A753F3 /* SuperMarioBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04539FEF1A05184B00A753F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = tekhne;
+				TargetAttributes = {
+					04539FF61A05184B00A753F3 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					0453A00B1A05184B00A753F3 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 04539FF61A05184B00A753F3;
+					};
+				};
+			};
+			buildConfigurationList = 04539FF21A05184B00A753F3 /* Build configuration list for PBXProject "SuperMarioBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04539FEE1A05184B00A753F3;
+			productRefGroup = 04539FF81A05184B00A753F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04539FF61A05184B00A753F3 /* SuperMarioBook */,
+				0453A00B1A05184B00A753F3 /* SuperMarioBookTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04539FF51A05184B00A753F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0453A0021A05184B00A753F3 /* Main.storyboard in Resources */,
+				0453A0071A05184B00A753F3 /* LaunchScreen.xib in Resources */,
+				0453A0041A05184B00A753F3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0453A00A1A05184B00A753F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04539FF31A05184B00A753F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0453A0241A05340100A753F3 /* CharacterCell.swift in Sources */,
+				0453A0221A051E1E00A753F3 /* ServiceProvider.swift in Sources */,
+				0453A01E1A051B5300A753F3 /* Character.swift in Sources */,
+				04539FFF1A05184B00A753F3 /* ViewController.swift in Sources */,
+				04539FFD1A05184B00A753F3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0453A0081A05184B00A753F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0453A0131A05184B00A753F3 /* SuperMarioBookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0453A00E1A05184B00A753F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04539FF61A05184B00A753F3 /* SuperMarioBook */;
+			targetProxy = 0453A00D1A05184B00A753F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0453A0001A05184B00A753F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0453A0011A05184B00A753F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0453A0051A05184B00A753F3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0453A0061A05184B00A753F3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0453A0141A05184B00A753F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0453A0151A05184B00A753F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0453A0171A05184B00A753F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SuperMarioBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0453A0181A05184B00A753F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SuperMarioBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0453A01A1A05184B00A753F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SuperMarioBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperMarioBook.app/SuperMarioBook";
+			};
+			name = Debug;
+		};
+		0453A01B1A05184B00A753F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SuperMarioBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperMarioBook.app/SuperMarioBook";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04539FF21A05184B00A753F3 /* Build configuration list for PBXProject "SuperMarioBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0453A0141A05184B00A753F3 /* Debug */,
+				0453A0151A05184B00A753F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0453A0161A05184B00A753F3 /* Build configuration list for PBXNativeTarget "SuperMarioBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0453A0171A05184B00A753F3 /* Debug */,
+				0453A0181A05184B00A753F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0453A0191A05184B00A753F3 /* Build configuration list for PBXNativeTarget "SuperMarioBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0453A01A1A05184B00A753F3 /* Debug */,
+				0453A01B1A05184B00A753F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04539FEF1A05184B00A753F3 /* Project object */;
+}
