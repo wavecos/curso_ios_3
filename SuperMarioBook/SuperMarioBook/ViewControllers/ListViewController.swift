@@ -7,14 +7,32 @@
 //
 
 import UIKit
+import AVFoundation
 
-class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class ListViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
   
   let characters = ServiceProvider.characteres()
+  var characterSelected : Character?
+  
+  // audio
+  var audioPlayer : AVAudioPlayer?
+  let audioUrl = CFBundleCopyResourceURL(CFBundleGetMainBundle(), "super_mario_song", "mp3", nil)
 
+  
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
+    
+    audioPlayer = AVAudioPlayer(contentsOfURL: audioUrl, error: nil)
+    
+    if let sound = audioPlayer {
+      sound.prepareToPlay()
+      sound.numberOfLoops = -1
+      sound.volume = 0.4 // Volumen entre 0 y 1
+      sound.play()
+    }
+    
   }
 
   override func didReceiveMemoryWarning() {
@@ -49,6 +67,36 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     return cell
   }
   
+  func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+    println("La fila seleccionada es \(indexPath.row) de la seccion : \(indexPath.section)")
+    
+    self.characterSelected = self.characters[indexPath.row]
+    self.performSegueWithIdentifier("detailSegue", sender: nil)
+  }
+  
+  @IBAction func okTapped(sender: AnyObject) {
+    
+    self.performSegueWithIdentifier("demoSegue", sender: nil)
+    
+  }
+  
+  
+  
+  override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+    
+    if segue.identifier == "detailSegue" {
+      
+      var detailVC = segue.destinationViewController as DetailViewController
+      detailVC.character = characterSelected
+//      detailVC.title = characterSelected!.name
+    } else if segue.identifier == "demoSegue" {
+      println("Voy a ir al VIew Controller Naranja...")
+    }
+    
+    
+    
+    
+  }
 
 }
 

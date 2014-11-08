@@ -7,15 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040CC46C1A0E59B900F2667B /* ServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040CC46B1A0E59B900F2667B /* ServiceProvider.swift */; };
+		040CC46E1A0E59C400F2667B /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040CC46D1A0E59C400F2667B /* Character.swift */; };
+		040CC4701A0E59CD00F2667B /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040CC46F1A0E59CD00F2667B /* ListViewController.swift */; };
+		040CC4731A0E5A5F00F2667B /* CharacterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040CC4721A0E5A5F00F2667B /* CharacterCell.swift */; };
+		040CC4751A0E601B00F2667B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040CC4741A0E601B00F2667B /* DetailViewController.swift */; };
+		040CC4781A0E6B3F00F2667B /* super_mario_song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 040CC4771A0E6B3F00F2667B /* super_mario_song.mp3 */; };
 		04539FFD1A05184B00A753F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04539FFC1A05184B00A753F3 /* AppDelegate.swift */; };
-		04539FFF1A05184B00A753F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04539FFE1A05184B00A753F3 /* ViewController.swift */; };
 		0453A0021A05184B00A753F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0453A0001A05184B00A753F3 /* Main.storyboard */; };
 		0453A0041A05184B00A753F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0453A0031A05184B00A753F3 /* Images.xcassets */; };
 		0453A0071A05184B00A753F3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0453A0051A05184B00A753F3 /* LaunchScreen.xib */; };
 		0453A0131A05184B00A753F3 /* SuperMarioBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0453A0121A05184B00A753F3 /* SuperMarioBookTests.swift */; };
-		0453A01E1A051B5300A753F3 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0453A01D1A051B5300A753F3 /* Character.swift */; };
-		0453A0221A051E1E00A753F3 /* ServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0453A0211A051E1E00A753F3 /* ServiceProvider.swift */; };
-		0453A0241A05340100A753F3 /* CharacterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0453A0231A05340100A753F3 /* CharacterCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,10 +31,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		040CC46B1A0E59B900F2667B /* ServiceProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceProvider.swift; sourceTree = "<group>"; };
+		040CC46D1A0E59C400F2667B /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		040CC46F1A0E59CD00F2667B /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		040CC4721A0E5A5F00F2667B /* CharacterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterCell.swift; sourceTree = "<group>"; };
+		040CC4741A0E601B00F2667B /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		040CC4771A0E6B3F00F2667B /* super_mario_song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = super_mario_song.mp3; sourceTree = "<group>"; };
 		04539FF71A05184B00A753F3 /* SuperMarioBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperMarioBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04539FFB1A05184B00A753F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04539FFC1A05184B00A753F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		04539FFE1A05184B00A753F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0453A0011A05184B00A753F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0453A0031A05184B00A753F3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0453A0061A05184B00A753F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -40,9 +47,6 @@
 		0453A0111A05184B00A753F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0453A0121A05184B00A753F3 /* SuperMarioBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperMarioBookTests.swift; sourceTree = "<group>"; };
 		0453A01C1A051ACA00A753F3 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
-		0453A01D1A051B5300A753F3 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
-		0453A0211A051E1E00A753F3 /* ServiceProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceProvider.swift; sourceTree = "<group>"; };
-		0453A0231A05340100A753F3 /* CharacterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		040CC4681A0E587700F2667B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				040CC46F1A0E59CD00F2667B /* ListViewController.swift */,
+				040CC4741A0E601B00F2667B /* DetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		040CC4691A0E58D800F2667B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				040CC46D1A0E59C400F2667B /* Character.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		040CC46A1A0E590000F2667B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				040CC46B1A0E59B900F2667B /* ServiceProvider.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		040CC4711A0E5A1A00F2667B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				040CC4721A0E5A5F00F2667B /* CharacterCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		040CC4761A0E6AF800F2667B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				040CC4771A0E6B3F00F2667B /* super_mario_song.mp3 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		04539FEE1A05184B00A753F3 = {
 			isa = PBXGroup;
 			children = (
@@ -84,16 +129,17 @@
 		04539FF91A05184B00A753F3 /* SuperMarioBook */ = {
 			isa = PBXGroup;
 			children = (
+				040CC4761A0E6AF800F2667B /* Resources */,
+				040CC4711A0E5A1A00F2667B /* Cells */,
+				040CC46A1A0E590000F2667B /* Service */,
+				040CC4691A0E58D800F2667B /* Model */,
+				040CC4681A0E587700F2667B /* ViewControllers */,
 				04539FFC1A05184B00A753F3 /* AppDelegate.swift */,
-				04539FFE1A05184B00A753F3 /* ViewController.swift */,
 				0453A0001A05184B00A753F3 /* Main.storyboard */,
 				0453A0031A05184B00A753F3 /* Images.xcassets */,
 				0453A0051A05184B00A753F3 /* LaunchScreen.xib */,
 				04539FFA1A05184B00A753F3 /* Supporting Files */,
 				0453A01C1A051ACA00A753F3 /* MyPlayground.playground */,
-				0453A01D1A051B5300A753F3 /* Character.swift */,
-				0453A0211A051E1E00A753F3 /* ServiceProvider.swift */,
-				0453A0231A05340100A753F3 /* CharacterCell.swift */,
 			);
 			path = SuperMarioBook;
 			sourceTree = "<group>";
@@ -205,6 +251,7 @@
 			files = (
 				0453A0021A05184B00A753F3 /* Main.storyboard in Resources */,
 				0453A0071A05184B00A753F3 /* LaunchScreen.xib in Resources */,
+				040CC4781A0E6B3F00F2667B /* super_mario_song.mp3 in Resources */,
 				0453A0041A05184B00A753F3 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -223,11 +270,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0453A0241A05340100A753F3 /* CharacterCell.swift in Sources */,
-				0453A0221A051E1E00A753F3 /* ServiceProvider.swift in Sources */,
-				0453A01E1A051B5300A753F3 /* Character.swift in Sources */,
-				04539FFF1A05184B00A753F3 /* ViewController.swift in Sources */,
+				040CC4731A0E5A5F00F2667B /* CharacterCell.swift in Sources */,
+				040CC4701A0E59CD00F2667B /* ListViewController.swift in Sources */,
+				040CC46C1A0E59B900F2667B /* ServiceProvider.swift in Sources */,
+				040CC4751A0E601B00F2667B /* DetailViewController.swift in Sources */,
 				04539FFD1A05184B00A753F3 /* AppDelegate.swift in Sources */,
+				040CC46E1A0E59C400F2667B /* Character.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +467,7 @@
 				0453A0181A05184B00A753F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0453A0191A05184B00A753F3 /* Build configuration list for PBXNativeTarget "SuperMarioBookTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +476,7 @@
 				0453A01B1A05184B00A753F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
