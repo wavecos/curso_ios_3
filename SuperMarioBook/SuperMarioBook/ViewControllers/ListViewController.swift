@@ -1,7 +1,7 @@
 //
 //  ViewController.swift
 //  SuperMarioBook
-//
+//  Esta clase es el manejo del Listado de Personajes
 //  Created by onix on 11/1/14.
 //  Copyright (c) 2014 tekhne. All rights reserved.
 //
