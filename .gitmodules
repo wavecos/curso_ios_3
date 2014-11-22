@@ -1,0 +1,3 @@
+[submodule "QuakeRadar/Alamofire"]
+	path = QuakeRadar/Alamofire
+	url = https://github.com/Alamofire/Alamofire.git

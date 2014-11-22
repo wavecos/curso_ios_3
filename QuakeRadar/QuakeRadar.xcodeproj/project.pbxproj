@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04A994041A20C79500BD5BDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A994031A20C79500BD5BDF /* AppDelegate.swift */; };
+		04A994091A20C79500BD5BDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A994071A20C79500BD5BDF /* Main.storyboard */; };
+		04A9940B1A20C79500BD5BDF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A9940A1A20C79500BD5BDF /* Images.xcassets */; };
+		04A9940E1A20C79500BD5BDF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A9940C1A20C79500BD5BDF /* LaunchScreen.xib */; };
+		04A9941A1A20C79500BD5BDF /* QuakeRadarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A994191A20C79500BD5BDF /* QuakeRadarTests.swift */; };
+		04A994261A20C8D400BD5BDF /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A994251A20C8D400BD5BDF /* ListTableViewController.swift */; };
+		04A994281A20C92300BD5BDF /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A994271A20C92300BD5BDF /* MapViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04A994141A20C79500BD5BDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04A993F61A20C79500BD5BDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04A993FD1A20C79500BD5BDF;
+			remoteInfo = QuakeRadar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04A993FE1A20C79500BD5BDF /* QuakeRadar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuakeRadar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A994021A20C79500BD5BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A994031A20C79500BD5BDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04A994081A20C79500BD5BDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04A9940A1A20C79500BD5BDF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04A9940D1A20C79500BD5BDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		04A994131A20C79500BD5BDF /* QuakeRadarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuakeRadarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A994181A20C79500BD5BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A994191A20C79500BD5BDF /* QuakeRadarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeRadarTests.swift; sourceTree = "<group>"; };
+		04A994251A20C8D400BD5BDF /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		04A994271A20C92300BD5BDF /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04A993FB1A20C79500BD5BDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A994101A20C79500BD5BDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04A993F51A20C79500BD5BDF = {
+			isa = PBXGroup;
+			children = (
+				04A994001A20C79500BD5BDF /* QuakeRadar */,
+				04A994161A20C79500BD5BDF /* QuakeRadarTests */,
+				04A993FF1A20C79500BD5BDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04A993FF1A20C79500BD5BDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04A993FE1A20C79500BD5BDF /* QuakeRadar.app */,
+				04A994131A20C79500BD5BDF /* QuakeRadarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04A994001A20C79500BD5BDF /* QuakeRadar */ = {
+			isa = PBXGroup;
+			children = (
+				04A994241A20C7E300BD5BDF /* Model */,
+				04A994231A20C7BD00BD5BDF /* ViewControllers */,
+				04A994031A20C79500BD5BDF /* AppDelegate.swift */,
+				04A994071A20C79500BD5BDF /* Main.storyboard */,
+				04A9940A1A20C79500BD5BDF /* Images.xcassets */,
+				04A9940C1A20C79500BD5BDF /* LaunchScreen.xib */,
+				04A994011A20C79500BD5BDF /* Supporting Files */,
+			);
+			path = QuakeRadar;
+			sourceTree = "<group>";
+		};
+		04A994011A20C79500BD5BDF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04A994021A20C79500BD5BDF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04A994161A20C79500BD5BDF /* QuakeRadarTests */ = {
+			isa = PBXGroup;
+			children = (
+				04A994191A20C79500BD5BDF /* QuakeRadarTests.swift */,
+				04A994171A20C79500BD5BDF /* Supporting Files */,
+			);
+			path = QuakeRadarTests;
+			sourceTree = "<group>";
+		};
+		04A994171A20C79500BD5BDF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04A994181A20C79500BD5BDF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04A994231A20C7BD00BD5BDF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				04A994251A20C8D400BD5BDF /* ListTableViewController.swift */,
+				04A994271A20C92300BD5BDF /* MapViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		04A994241A20C7E300BD5BDF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04A993FD1A20C79500BD5BDF /* QuakeRadar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A9941D1A20C79500BD5BDF /* Build configuration list for PBXNativeTarget "QuakeRadar" */;
+			buildPhases = (
+				04A993FA1A20C79500BD5BDF /* Sources */,
+				04A993FB1A20C79500BD5BDF /* Frameworks */,
+				04A993FC1A20C79500BD5BDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuakeRadar;
+			productName = QuakeRadar;
+			productReference = 04A993FE1A20C79500BD5BDF /* QuakeRadar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04A994121A20C79500BD5BDF /* QuakeRadarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A994201A20C79500BD5BDF /* Build configuration list for PBXNativeTarget "QuakeRadarTests" */;
+			buildPhases = (
+				04A9940F1A20C79500BD5BDF /* Sources */,
+				04A994101A20C79500BD5BDF /* Frameworks */,
+				04A994111A20C79500BD5BDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04A994151A20C79500BD5BDF /* PBXTargetDependency */,
+			);
+			name = QuakeRadarTests;
+			productName = QuakeRadarTests;
+			productReference = 04A994131A20C79500BD5BDF /* QuakeRadarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04A993F61A20C79500BD5BDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = tekhne;
+				TargetAttributes = {
+					04A993FD1A20C79500BD5BDF = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					04A994121A20C79500BD5BDF = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 04A993FD1A20C79500BD5BDF;
+					};
+				};
+			};
+			buildConfigurationList = 04A993F91A20C79500BD5BDF /* Build configuration list for PBXProject "QuakeRadar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04A993F51A20C79500BD5BDF;
+			productRefGroup = 04A993FF1A20C79500BD5BDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04A993FD1A20C79500BD5BDF /* QuakeRadar */,
+				04A994121A20C79500BD5BDF /* QuakeRadarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04A993FC1A20C79500BD5BDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A994091A20C79500BD5BDF /* Main.storyboard in Resources */,
+				04A9940E1A20C79500BD5BDF /* LaunchScreen.xib in Resources */,
+				04A9940B1A20C79500BD5BDF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A994111A20C79500BD5BDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04A993FA1A20C79500BD5BDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A994041A20C79500BD5BDF /* AppDelegate.swift in Sources */,
+				04A994281A20C92300BD5BDF /* MapViewController.swift in Sources */,
+				04A994261A20C8D400BD5BDF /* ListTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A9940F1A20C79500BD5BDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A9941A1A20C79500BD5BDF /* QuakeRadarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04A994151A20C79500BD5BDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04A993FD1A20C79500BD5BDF /* QuakeRadar */;
+			targetProxy = 04A994141A20C79500BD5BDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04A994071A20C79500BD5BDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04A994081A20C79500BD5BDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04A9940C1A20C79500BD5BDF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04A9940D1A20C79500BD5BDF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04A9941B1A20C79500BD5BDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04A9941C1A20C79500BD5BDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04A9941E1A20C79500BD5BDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QuakeRadar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04A9941F1A20C79500BD5BDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QuakeRadar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04A994211A20C79500BD5BDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = QuakeRadarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuakeRadar.app/QuakeRadar";
+			};
+			name = Debug;
+		};
+		04A994221A20C79500BD5BDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = QuakeRadarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuakeRadar.app/QuakeRadar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04A993F91A20C79500BD5BDF /* Build configuration list for PBXProject "QuakeRadar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A9941B1A20C79500BD5BDF /* Debug */,
+				04A9941C1A20C79500BD5BDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A9941D1A20C79500BD5BDF /* Build configuration list for PBXNativeTarget "QuakeRadar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A9941E1A20C79500BD5BDF /* Debug */,
+				04A9941F1A20C79500BD5BDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04A994201A20C79500BD5BDF /* Build configuration list for PBXNativeTarget "QuakeRadarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A994211A20C79500BD5BDF /* Debug */,
+				04A994221A20C79500BD5BDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04A993F61A20C79500BD5BDF /* Project object */;
+}
