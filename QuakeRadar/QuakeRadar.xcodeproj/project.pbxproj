@@ -14,6 +14,7 @@
 		04A9941A1A20C79500BD5BDF /* QuakeRadarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A994191A20C79500BD5BDF /* QuakeRadarTests.swift */; };
 		04A994261A20C8D400BD5BDF /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A994251A20C8D400BD5BDF /* ListTableViewController.swift */; };
 		04A994281A20C92300BD5BDF /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A994271A20C92300BD5BDF /* MapViewController.swift */; };
+		04A994351A20D0ED00BD5BDF /* Alamofire.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 04A9942F1A20D03F00BD5BDF /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +25,42 @@
 			remoteGlobalIDString = 04A993FD1A20C79500BD5BDF;
 			remoteInfo = QuakeRadar;
 		};
+		04A9942E1A20D03F00BD5BDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04A994291A20D03F00BD5BDF /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = Alamofire;
+		};
+		04A994301A20D03F00BD5BDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04A994291A20D03F00BD5BDF /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = AlamofireTests;
+		};
+		04A994321A20D09300BD5BDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04A994291A20D03F00BD5BDF /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = Alamofire;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		04A994341A20D0B800BD5BDF /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				04A994351A20D0ED00BD5BDF /* Alamofire.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		04A993FE1A20C79500BD5BDF /* QuakeRadar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuakeRadar.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,6 +74,7 @@
 		04A994191A20C79500BD5BDF /* QuakeRadarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeRadarTests.swift; sourceTree = "<group>"; };
 		04A994251A20C8D400BD5BDF /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
 		04A994271A20C92300BD5BDF /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		04A994291A20D03F00BD5BDF /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +98,7 @@
 		04A993F51A20C79500BD5BDF = {
 			isa = PBXGroup;
 			children = (
+				04A994291A20D03F00BD5BDF /* Alamofire.xcodeproj */,
 				04A994001A20C79500BD5BDF /* QuakeRadar */,
 				04A994161A20C79500BD5BDF /* QuakeRadarTests */,
 				04A993FF1A20C79500BD5BDF /* Products */,
@@ -131,6 +169,15 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		04A9942A1A20D03F00BD5BDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04A9942F1A20D03F00BD5BDF /* Alamofire.framework */,
+				04A994311A20D03F00BD5BDF /* AlamofireTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,10 +188,12 @@
 				04A993FA1A20C79500BD5BDF /* Sources */,
 				04A993FB1A20C79500BD5BDF /* Frameworks */,
 				04A993FC1A20C79500BD5BDF /* Resources */,
+				04A994341A20D0B800BD5BDF /* Copy Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				04A994331A20D09300BD5BDF /* PBXTargetDependency */,
 			);
 			name = QuakeRadar;
 			productName = QuakeRadar;
@@ -198,6 +247,12 @@
 			mainGroup = 04A993F51A20C79500BD5BDF;
 			productRefGroup = 04A993FF1A20C79500BD5BDF /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 04A9942A1A20D03F00BD5BDF /* Products */;
+					ProjectRef = 04A994291A20D03F00BD5BDF /* Alamofire.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				04A993FD1A20C79500BD5BDF /* QuakeRadar */,
@@ -205,6 +260,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		04A9942F1A20D03F00BD5BDF /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 04A9942E1A20D03F00BD5BDF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		04A994311A20D03F00BD5BDF /* AlamofireTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = AlamofireTests.xctest;
+			remoteRef = 04A994301A20D03F00BD5BDF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		04A993FC1A20C79500BD5BDF /* Resources */ = {
@@ -252,6 +324,11 @@
 			isa = PBXTargetDependency;
 			target = 04A993FD1A20C79500BD5BDF /* QuakeRadar */;
 			targetProxy = 04A994141A20C79500BD5BDF /* PBXContainerItemProxy */;
+		};
+		04A994331A20D09300BD5BDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			targetProxy = 04A994321A20D09300BD5BDF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -427,6 +504,7 @@
 				04A9941F1A20C79500BD5BDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04A994201A20C79500BD5BDF /* Build configuration list for PBXNativeTarget "QuakeRadarTests" */ = {
 			isa = XCConfigurationList;
@@ -435,6 +513,7 @@
 				04A994221A20C79500BD5BDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
