@@ -8,28 +8,30 @@
 
 import UIKit
 
-class MapViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+class MapViewController: UIViewController, QuakeDelegate {
+  
+  let quakeService = QuakeService()
+  
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    
+    quakeService.delegate = self
+    quakeService.getAllQuakesFromLastHour()
+    
+  }
+  
+  override func didReceiveMemoryWarning() {
+    super.didReceiveMemoryWarning()
+  }
+  
+  func quakesReceived(quakes: [Quake]) {
+    println("recibido en el MAPA")
+    
+    for q in quakes {
+      println(q.place)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+  }
+  
+  
 }

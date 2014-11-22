@@ -1,3 +1,6 @@
 [submodule "QuakeRadar/Alamofire"]
 	path = QuakeRadar/Alamofire
 	url = https://github.com/Alamofire/Alamofire.git
+[submodule "QuakeRadar/SwiftyJSON"]
+	path = QuakeRadar/SwiftyJSON
+	url = https://github.com/SwiftyJSON/SwiftyJSON.git
