@@ -45,7 +45,7 @@ class ListTableViewController: UITableViewController, QuakeDelegate {
     
     let q = quakes[indexPath.row]
     
-    cell.textLabel.text = q.place
+    cell.textLabel?.text = q.place
     cell.detailTextLabel?.text = "\(q.magnitude!)"
     
     return cell

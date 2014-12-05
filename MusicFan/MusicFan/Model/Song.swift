@@ -15,12 +15,14 @@ class Song {
   let collectionName : String?
   let albumImageUrl : NSURL?
   let price : Double?
+  let previewUrl : NSURL?
   
   init( artistName : String,
     trackName : String,
     collectionName : String,
     albumImageUrl : NSURL,
-    price : Double
+    price : Double,
+    previewUrl : NSURL
     ) {
       
       self.artistName = artistName
@@ -28,6 +30,7 @@ class Song {
       self.collectionName = collectionName
       self.albumImageUrl = albumImageUrl
       self.price = price
+      self.previewUrl = previewUrl
       
   }
   

@@ -12,6 +12,7 @@
 		040CC48F1A0E79C400F2667B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040CC48E1A0E79C400F2667B /* Images.xcassets */; };
 		040CC4921A0E79C400F2667B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040CC4901A0E79C400F2667B /* LaunchScreen.xib */; };
 		040CC49E1A0E79C400F2667B /* MusicFanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040CC49D1A0E79C400F2667B /* MusicFanTests.swift */; };
+		04136F511A326E3D00F9A122 /* SongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04136F501A326E3D00F9A122 /* SongViewController.swift */; };
 		04D3B9DA1A1791FC009E182F /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D3B9D91A1791FC009E182F /* Song.swift */; };
 		04D3B9DD1A1794E7009E182F /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D3B9DC1A1794E7009E182F /* ListViewController.swift */; };
 /* End PBXBuildFile section */
@@ -36,6 +37,7 @@
 		040CC4971A0E79C400F2667B /* MusicFanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicFanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		040CC49C1A0E79C400F2667B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		040CC49D1A0E79C400F2667B /* MusicFanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicFanTests.swift; sourceTree = "<group>"; };
+		04136F501A326E3D00F9A122 /* SongViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongViewController.swift; sourceTree = "<group>"; };
 		04D3B9D91A1791FC009E182F /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 		04D3B9DC1A1794E7009E182F /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -127,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				04D3B9DC1A1794E7009E182F /* ListViewController.swift */,
+				04136F501A326E3D00F9A122 /* SongViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04D3B9DA1A1791FC009E182F /* Song.swift in Sources */,
+				04136F511A326E3D00F9A122 /* SongViewController.swift in Sources */,
 				04D3B9DD1A1794E7009E182F /* ListViewController.swift in Sources */,
 				040CC4881A0E79C400F2667B /* AppDelegate.swift in Sources */,
 			);

@@ -16,7 +16,7 @@ class ListViewController : UIViewController, UITableViewDataSource, UITableViewD
   let urlSession = NSURLSession.sharedSession()
 
   var songs : [Song] = [Song]()
-  
+  var songSelected : Song?
   
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -47,7 +47,7 @@ class ListViewController : UIViewController, UITableViewDataSource, UITableViewD
     
     let song = self.songs[indexPath.row]
     
-    cell.textLabel.text = song.trackName!
+    cell.textLabel?.text = song.trackName!
     cell.detailTextLabel?.text = "\(song.collectionName!) - \(song.artistName!) - \(song.price!)"
 
     // Traer la Imagen sin Uso de Hilos
@@ -65,23 +65,33 @@ class ListViewController : UIViewController, UITableViewDataSource, UITableViewD
         
         dispatch_async(dispatch_get_main_queue(), { () -> Void in
           let cellToUpdate = tableView.cellForRowAtIndexPath(indexPath)
-          cellToUpdate?.imageView.image = imageAlbum
+          cellToUpdate?.imageView?.image = imageAlbum
           cellToUpdate?.setNeedsLayout() // Refresque la celda
         })
         
       }
-      
     }
-    
-    
     
     return cell
   }
   
   
   //MARK: - Metodos del UITableViewDelegate
-  func test3() {
+  func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+    // Cuando el Usuario Seleccione una celda
+    self.songSelected = self.songs[indexPath.row]
+    // Indicamos que se ejecute el Segue para ir al detalle
+    self.performSegueWithIdentifier("SongSegue", sender: nil)
   }
+  
+  //MARK: - Prepare For Segue
+  override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+    if segue.identifier == "SongSegue" {
+      let songVC = segue.destinationViewController as SongViewController
+      songVC.song = self.songSelected
+    }
+  }
+  
   
   //MARK: - Busqueda
   
@@ -90,7 +100,6 @@ class ListViewController : UIViewController, UITableViewDataSource, UITableViewD
     // metodo para esconder el teclado
     self.searchTextField.resignFirstResponder()
     
-    
     self.songs = [Song]()
     
     let parseTerm = term.stringByAddingPercentEscapesUsingEncoding(NSUTF8StringEncoding)
@@ -98,7 +107,6 @@ class ListViewController : UIViewController, UITableViewDataSource, UITableViewD
     let url = "https://itunes.apple.com/search?term=\(parseTerm!)&entity=song&limit=5"
     
     let iTunesUrl = NSURL(string: url)
-
     
     let urlRequest = NSURLRequest(URL: iTunesUrl!)
     
@@ -125,8 +133,9 @@ class ListViewController : UIViewController, UITableViewDataSource, UITableViewD
         let collectionName = songDic["collectionName"] as String
         let albumImageUrl = NSURL(string: songDic["artworkUrl100"] as String)
         let price = songDic["trackPrice"] as Double
+        let previewUrl = NSURL(string: songDic["previewUrl"] as String)
         
-        let song = Song(artistName: artistName, trackName: trackName, collectionName: collectionName, albumImageUrl: albumImageUrl!, price: price)
+        let song = Song(artistName: artistName, trackName: trackName, collectionName: collectionName, albumImageUrl: albumImageUrl!, price: price, previewUrl: previewUrl!)
         
         self.songs.append(song)
         

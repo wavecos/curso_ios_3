@@ -24,15 +24,7 @@ class ListViewController: UIViewController, UITableViewDataSource, UITableViewDe
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
     
-    audioPlayer = AVAudioPlayer(contentsOfURL: audioUrl, error: nil)
-    
-    if let sound = audioPlayer {
-      sound.prepareToPlay()
-      sound.numberOfLoops = -1
-      sound.volume = 0.4 // Volumen entre 0 y 1
-      sound.play()
-    }
-    
+6
   }
 
   override func didReceiveMemoryWarning() {
