@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vqN-FJ-Yyg">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vqN-FJ-Yyg">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
     <scenes>
         <!--Tab Bar Controller-->
@@ -15,15 +15,15 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="CoX-zi-TVm" kind="relationship" relationship="viewControllers" id="lh8-bc-OaD"/>
-                        <segue destination="fyz-Fd-g1L" kind="relationship" relationship="viewControllers" id="67A-ul-wJq"/>
+                        <segue destination="wOG-AW-h8U" kind="relationship" relationship="viewControllers" id="bpX-2g-pXL"/>
+                        <segue destination="LrM-VM-ciA" kind="relationship" relationship="viewControllers" id="xAw-Y0-2pb"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oA9-qC-vqV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-33" y="441"/>
         </scene>
-        <!--Lista-->
+        <!--Terremotos en el Mundo-->
         <scene sceneID="em2-w1-LSH">
             <objects>
                 <tableViewController id="CoX-zi-TVm" customClass="ListTableViewController" customModule="QuakeRadar" customModuleProvider="target" sceneMemberID="viewController">
@@ -58,11 +58,11 @@
                             <outlet property="delegate" destination="CoX-zi-TVm" id="y8D-bA-yPq"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Lista" id="Kz9-Qw-XEE"/>
+                    <navigationItem key="navigationItem" title="Terremotos en el Mundo" id="ny2-t8-EUP"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2G3-26-aJ7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="661" y="93"/>
+            <point key="canvasLocation" x="1193" y="114"/>
         </scene>
         <!--Mapa-->
         <scene sceneID="hEX-9L-fca">
@@ -98,12 +98,50 @@
                             </button>
                         </subviews>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Mapa" id="0zW-m6-vI0"/>
+                    <navigationItem key="navigationItem" title="Mapa" id="6oE-2t-n3Z"/>
                     <connections>
                         <outlet property="mapView" destination="IMX-wI-U3r" id="Jvt-ZH-pp9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ekk-2v-NP0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1193" y="893"/>
+        </scene>
+        <!--Lista-->
+        <scene sceneID="UPk-39-4Ep">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="wOG-AW-h8U" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Lista" id="Kz9-Qw-XEE"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1R8-v9-ORT">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="CoX-zi-TVm" kind="relationship" relationship="rootViewController" id="NPk-kC-b49"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HXg-kL-zfb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="661" y="114"/>
+        </scene>
+        <!--Mapa-->
+        <scene sceneID="pxw-6P-E5q">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="LrM-VM-ciA" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Mapa" id="0zW-m6-vI0"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="vMA-iZ-NZX">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="fyz-Fd-g1L" kind="relationship" relationship="rootViewController" id="03t-ib-GpX"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NAf-AE-ihV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="661" y="893"/>
         </scene>
