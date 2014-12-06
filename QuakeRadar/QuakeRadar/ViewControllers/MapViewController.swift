@@ -20,27 +20,27 @@ class MapViewController: UIViewController, QuakeDelegate {
   override func viewDidLoad() {
     super.viewDidLoad()
     
+    let generalCoordinate = CLLocationCoordinate2DMake(6.958058, -87.151538) // En algun lugar por centro america
+    
+    let userLocation : MKUserLocation = self.mapView.userLocation
+    let region : MKCoordinateRegion = MKCoordinateRegionMakeWithDistance(generalCoordinate, 10000000, 10000000)
+    self.mapView.setRegion(region, animated: true)
+    
     quakeService.delegate = self
     quakeService.getAllQuakesFromLastHour()
-    
-    
-    
   }
   
   override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
   }
   
-  
   // Actions
   @IBAction func satelliteTapped(sender: AnyObject) {
     self.mapView.mapType = MKMapType.Satellite
-
   }
   
   @IBAction func standarTapped(sender: AnyObject) {
     self.mapView.mapType = MKMapType.Standard
-
   }
 
   //MARK: - Quake Delagate
