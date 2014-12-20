@@ -15,7 +15,7 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="wOG-AW-h8U" kind="relationship" relationship="viewControllers" id="bpX-2g-pXL"/>
+                        <segue destination="whK-7s-zTB" kind="relationship" relationship="viewControllers" id="qu3-pE-FqG"/>
                         <segue destination="LrM-VM-ciA" kind="relationship" relationship="viewControllers" id="xAw-Y0-2pb"/>
                     </connections>
                 </tabBarController>
@@ -62,7 +62,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2G3-26-aJ7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1193" y="114"/>
+            <point key="canvasLocation" x="1207" y="122"/>
         </scene>
         <!--Mapa-->
         <scene sceneID="hEX-9L-fca">
@@ -107,30 +107,41 @@
             </objects>
             <point key="canvasLocation" x="1193" y="893"/>
         </scene>
-        <!--Lista-->
-        <scene sceneID="UPk-39-4Ep">
+        <!--Test View Controller-->
+        <scene sceneID="KDv-xE-mdd">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="wOG-AW-h8U" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Lista" id="Kz9-Qw-XEE"/>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1R8-v9-ORT">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="CoX-zi-TVm" kind="relationship" relationship="rootViewController" id="NPk-kC-b49"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="HXg-kL-zfb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="WIa-4X-UjK" customClass="TestViewController" customModule="QuakeRadar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oj2-bQ-u1O">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view alpha="0.59999999999999998" contentMode="scaleToFill" id="qQY-aZ-HYa">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cochabamba" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xSq-DC-CY5">
+                                        <rect key="frame" x="97" y="127" width="127" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dib-r4-3fv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="661" y="114"/>
+            <point key="canvasLocation" x="1602" y="893"/>
         </scene>
         <!--Mapa-->
         <scene sceneID="pxw-6P-E5q">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="LrM-VM-ciA" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Mapa" id="0zW-m6-vI0"/>
+                    <tabBarItem key="tabBarItem" title="Mapa" image="icon-mapa" id="0zW-m6-vI0"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="vMA-iZ-NZX">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -145,7 +156,30 @@
             </objects>
             <point key="canvasLocation" x="661" y="893"/>
         </scene>
+        <!--Lista-->
+        <scene sceneID="nIA-2U-pn2">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="whK-7s-zTB" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Lista" image="icon-lista" id="h2j-xe-Y4e"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="mBm-xN-qe5">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="CoX-zi-TVm" kind="relationship" relationship="rootViewController" id="aH5-DO-DOj"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="576-wb-tL1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="675" y="122"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="icon-lista" width="48" height="48"/>
+        <image name="icon-mapa" width="48" height="48"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

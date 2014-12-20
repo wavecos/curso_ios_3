@@ -9,9 +9,10 @@
 /* Begin PBXBuildFile section */
 		04024AFD1A20ED0B0029DF90 /* QuakeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04024AFC1A20ED0B0029DF90 /* QuakeService.swift */; };
 		04024AFF1A20EE900029DF90 /* QuakeDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04024AFE1A20EE900029DF90 /* QuakeDelegate.swift */; };
+		04A03FA81A334B5B00E44B4A /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A03FA71A334B5B00E44B4A /* TestViewController.swift */; };
+		04A03FAE1A3361FE00E44B4A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A03FAD1A3361FE00E44B4A /* Images.xcassets */; };
 		04A994041A20C79500BD5BDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A994031A20C79500BD5BDF /* AppDelegate.swift */; };
 		04A994091A20C79500BD5BDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A994071A20C79500BD5BDF /* Main.storyboard */; };
-		04A9940B1A20C79500BD5BDF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A9940A1A20C79500BD5BDF /* Images.xcassets */; };
 		04A9940E1A20C79500BD5BDF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A9940C1A20C79500BD5BDF /* LaunchScreen.xib */; };
 		04A9941A1A20C79500BD5BDF /* QuakeRadarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A994191A20C79500BD5BDF /* QuakeRadarTests.swift */; };
 		04A994261A20C8D400BD5BDF /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A994251A20C8D400BD5BDF /* ListTableViewController.swift */; };
@@ -107,11 +108,12 @@
 /* Begin PBXFileReference section */
 		04024AFC1A20ED0B0029DF90 /* QuakeService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuakeService.swift; sourceTree = "<group>"; };
 		04024AFE1A20EE900029DF90 /* QuakeDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuakeDelegate.swift; sourceTree = "<group>"; };
+		04A03FA71A334B5B00E44B4A /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		04A03FAD1A3361FE00E44B4A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		04A993FE1A20C79500BD5BDF /* QuakeRadar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuakeRadar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A994021A20C79500BD5BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04A994031A20C79500BD5BDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04A994081A20C79500BD5BDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		04A9940A1A20C79500BD5BDF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		04A9940D1A20C79500BD5BDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		04A994131A20C79500BD5BDF /* QuakeRadarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuakeRadarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A994181A20C79500BD5BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -179,12 +181,13 @@
 		04A994001A20C79500BD5BDF /* QuakeRadar */ = {
 			isa = PBXGroup;
 			children = (
+				04A03FAD1A3361FE00E44B4A /* Images.xcassets */,
 				04024AF71A20ECDB0029DF90 /* Service */,
 				04A994241A20C7E300BD5BDF /* Model */,
 				04A994231A20C7BD00BD5BDF /* ViewControllers */,
 				04A994031A20C79500BD5BDF /* AppDelegate.swift */,
 				04A994071A20C79500BD5BDF /* Main.storyboard */,
-				04A9940A1A20C79500BD5BDF /* Images.xcassets */,
+				04A03FA71A334B5B00E44B4A /* TestViewController.swift */,
 				04A9940C1A20C79500BD5BDF /* LaunchScreen.xib */,
 				04A994011A20C79500BD5BDF /* Supporting Files */,
 			);
@@ -391,9 +394,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A03FAE1A3361FE00E44B4A /* Images.xcassets in Resources */,
 				04A994091A20C79500BD5BDF /* Main.storyboard in Resources */,
 				04A9940E1A20C79500BD5BDF /* LaunchScreen.xib in Resources */,
-				04A9940B1A20C79500BD5BDF /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +414,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A03FA81A334B5B00E44B4A /* TestViewController.swift in Sources */,
 				04024AFF1A20EE900029DF90 /* QuakeDelegate.swift in Sources */,
 				04024AFD1A20ED0B0029DF90 /* QuakeService.swift in Sources */,
 				04A994041A20C79500BD5BDF /* AppDelegate.swift in Sources */,
